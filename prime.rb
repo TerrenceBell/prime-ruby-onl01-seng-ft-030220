@@ -3,7 +3,7 @@ def prime(num)
 if num <= 1 
   return false
 else 
-(2..num-1).all? do
+(2..num-1)to_a
 
 #   num.find do |int|
 #   if prime.prime?(int)
